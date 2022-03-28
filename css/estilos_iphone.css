@@ -1,0 +1,664 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SanfranciscoUltralight;
+    src: url("../fuentes/SFProDisplay-Ultralight.ttf") format("opentype");
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SFProText-Regular;
+    src: url("../fuentes/SFProText-Regular.ttf") format("opentype");
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SFProText-Semibold;
+    src: url("../fuentes/SFProText-Semibold.ttf") format("opentype");
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SFProText-Bold;
+    src: url("../fuentes/SFProDisplay-Bold.ttf") format("opentype");
+}
+
+
+/*tipo de texto*/
+
+#texto1 {
+    font-style: SanfranciscoUltralight;
+}
+
+#texto2 {
+    font-style: SFProText-Regular;
+}
+
+#texto3 {
+    font-style: SFProText-Semibold;
+}
+
+#texto4 {
+    font-style: SFProText-Bold;
+}
+
+
+/* barra de encima del iphone*/
+
+.barra {
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+#tipo {
+    font-style: SanfranciscoUltralight;
+    margin-top: 10px;
+}
+
+.barra2 {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+/*iphone 13 PRO y IPHONE 13 */
+
+#separacion {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.phones {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#iphone13v {
+    width: 700px;
+    height: 500px;
+}
+
+.pa1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.pa2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pa3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pa4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: grey;
+}
+
+.barra_abajo {
+    background-color: #F5F5F7;
+    height: 10px;
+    width: 100%;
+}
+
+.boton {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 40%;
+    justify-content: center;
+    border-style: none;
+    width: 70px;
+    height: 30px;
+}
+
+
+/*phone en paralelo hacia abajo*/
+
+.phoness2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #fbfbfd;
+    align-items: center;
+}
+
+#phones_ge {
+    height: 700px;
+}
+
+#coloreado_azul {
+    color: darkslateblue;
+    font-style: SFProText-Regular;
+}
+
+#bloque1 {
+    width: 500px;
+}
+
+
+/* persona con un iphone*/
+
+.imagen_persona {
+    width: 80%;
+    border-radius: 5%;
+}
+
+#persona {
+    margin-top: 20px;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textoo {
+    position: relative;
+    top: 75px;
+    left: 500px;
+    color: white;
+    font-style: SanfranciscoUltralight
+}
+
+
+/*barra grande */
+
+.barra_grande {
+    width: 100%;
+    height: 100px;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+/*poner las imagenes en fila de at...*/
+
+#compañia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*imagenes con dos cajas */
+
+.generico {
+    height: 100%;
+    width: 100%;
+}
+
+#contenedor1 {
+    font-size: 20px;
+    height: 700px;
+}
+
+#contenedor2 {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+
+#manos {
+    height: 200px;
+}
+
+
+/*clases centrado */
+
+.alineado_centro {
+    display: flex;
+    justify-content: center;
+}
+
+.izquierdo {
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+.derecho {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#textillo {
+    display: flex;
+    justify-content: center;
+    font-size: SFProText-Semibold;
+}
+
+
+/*imagen mobiles*/
+
+.mobilees {
+    height: 400px;
+}
+
+#moviles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+/*iphone en fila*/
+
+.ine {
+    width: 200px;
+}
+
+
+/*accesorios*/
+
+.phones_g1 {
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/*auriculares*/
+
+#auri {
+    width: 80%;
+}
+
+
+/*texto con color de fondo*/
+
+#textillo2 {
+    display: flex;
+    justify-content: center;
+}
+
+.alineado_centro2 {
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+    margin-top: 10px;
+}
+
+.izquierdo2 {
+    margin-right: 90px;
+}
+
+.derecho2 {
+    margin-left: 100px;
+}
+
+#textazo {
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+}
+
+
+/*muchos moviles*/
+
+.mobilees2 {
+    margin-top: 20px;
+    height: 70%;
+}
+
+
+/*2 contenedores*/
+
+#contenedor2-1 {
+    margin-top: 15px;
+    font-size: 20px;
+    height: 500px;
+}
+
+#guau {
+    height: 250px;
+}
+
+#contenedor1-1 {
+    font-size: 20px;
+    height: 500px;
+    margin-top: 15px;
+}
+
+
+/* barra de abajo contenedores*/
+
+.barra1 {
+    width: 100%;
+    height: 200px;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#phones_ge2 {
+    width: 50%;
+}
+
+#phones_ge3 {
+    width: 40%;
+}
+
+#phones_ge6 {
+    width: 100%;
+}
+
+
+/*paralelo imagen derecha texto izquierda*/
+
+#contenedor1-11 {
+    font-size: 20px;
+    height: 300px;
+}
+
+#contenedor2-11 {
+    font-size: 20px;
+    height: 300px;
+}
+
+
+/*imagenes paralelas con una con texto y otra no */
+
+#phones_ge22 {
+    width: 50%;
+}
+
+.alineado_centro22 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pa5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: #F5F5F7 left;
+}
+
+
+/*imagen apple music*/
+
+#culares {
+    width: 50%;
+}
+
+#musica {
+    width: 20%;
+}
+
+#tama {
+    width: 90%;
+    margin-top: 20px;
+}
+
+#tama2 {
+    width: 80%;
+}
+
+
+/*imagenes tablet*/
+
+#tama4 {
+    width: 40%;
+    margin-top: 20px;
+}
+
+#tama5 {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.ultima {
+    margin-top: 80px;
+}
+
+
+/*Dar formato al logo del menú*/
+
+.logo {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: SanfranciscoUltralight;
+    font-size: 12pt;
+}
+
+@media (max-width: 975px) {
+    /*Dar formato a los enlaces del menú*/
+    .itemsmenu {
+        display: none;
+    }
+    .logomenu {
+        width: 25px;
+        height: 25px;
+    }
+    /*Barra del menú*/
+    #menu {
+        background-color: #070708d3;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        height: 35px;
+        justify-content: space-between;
+        backdrop-filter: blur(4px);
+        z-index: 99;
+    }
+    .logomenumovil {
+        width: 35px;
+        height: 35px;
+    }
+    .logocompramovil {
+        width: 30px;
+        height: 30px;
+    }
+    /*Footer*/
+    #footer {
+        background-color: #e8e8e9;
+        padding-left: 18%;
+        padding-right: 18%;
+        padding-top: 2%;
+        font-size: 7pt;
+        color: #4f4f50;
+        bottom: 0px;
+    }
+    #footer p {
+        margin-top: 1.5%;
+    }
+    #footer hr {
+        border-color: #4f4f50;
+    }
+    #footer #enlaces {
+        color: #4f4f50;
+        display: flex;
+        justify-content: space-around;
+    }
+    #footer ul {
+        list-style: none;
+        margin-top: 10px;
+    }
+    .categoria {
+        color: #0d0d0e;
+        font-family: SFProText-Regular;
+    }
+    .enlacenormal a {
+        color: #4f4f50;
+    }
+    .categoria {
+        margin-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        ;
+    }
+    .enlacenormal {
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        ;
+    }
+}
+
+@media (min-width: 975px) {
+    .itemsmenu {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: SanfranciscoUltralight;
+        font-size: 10pt;
+    }
+    .logomenu {
+        width: 25px;
+        height: 25px;
+    }
+    .logomenumovil {
+        display: none;
+    }
+    .logocompramovil {
+        display: none;
+    }
+    /*Barra del menú*/
+    #menu {
+        background-color: #070708d3;
+        height: 45px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        backdrop-filter: blur(4px);
+        z-index: 99;
+    }
+    #menu a {
+        color: #e8e8e9;
+    }
+    /*Footer*/
+    #footer {
+        background-color: #e8e8e9;
+        padding-left: 18%;
+        padding-right: 18%;
+        padding-top: 2%;
+        font-size: 10pt;
+        color: #4f4f50;
+        bottom: 0px;
+    }
+    #footer p {
+        margin-top: 1.5%;
+    }
+    #footer hr {
+        border-color: #4f4f50;
+    }
+    #footer #enlaces {
+        color: #4f4f50;
+        display: flex;
+        justify-content: space-around;
+    }
+    #footer ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+    .categoria {
+        color: #0d0d0e;
+        font-family: SFProText-Regular;
+    }
+    .enlacenormal a {
+        color: #4f4f50;
+    }
+    .categoria {
+        margin-top: 30px;
+    }
+    .enlacenormal {
+        margin-top: 10px;
+    }
+}
+
+
+/*Dar tamaño a la imagen del menú*/
+
+.compra {
+    width: 25px;
+}
+
+
+/*Botón Negro evento*/
+
+#botonevento {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: SFProText-Regular;
+    font-size: 14pt;
+    background-color: #000000;
+    color: white;
+    border: 2px solid #fff;
+}
+
+#botonevento:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*Diseño de los botones de apple blancos*/
+
+#botonblanco {
+    padding: 10px;
+    border-radius: 30px;
+    font-family: SFProText-Regular;
+    font-size: 14pt;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 5px;
+    margin-top: 40px;
+}
+
+#botonblanco:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+#antesfooter {
+    background-color: #fff;
+}

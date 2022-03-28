@@ -1,0 +1,292 @@
+* {
+    padding: 0%;
+    margin: 0px;
+}
+
+#body {
+    overflow-x: hidden;
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SanfranciscoUltralight;
+    src: url("../fuentes/SFProDisplay-Ultralight.ttf") format("opentype");
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SFProText-Regular;
+    src: url("../fuentes/SFProText-Regular.ttf") format("opentype");
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SFProText-Semibold;
+    src: url("../fuentes/SFProText-Semibold.ttf") format("opentype");
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SFProText-Bold;
+    src: url("../fuentes/SFProDisplay-Bold.ttf") format("opentype");
+}
+
+
+/*Dar formato al logo del menú*/
+
+.logo {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: SanfranciscoUltralight;
+    font-size: 12pt;
+}
+
+@media (max-width: 975px) {
+    /*Dar formato a los enlaces del menú*/
+    .itemsmenu {
+        display: none;
+    }
+    .logomenu {
+        width: 25px;
+        height: 25px;
+    }
+    /*Barra del menú*/
+    #menu {
+        background-color: #313132fa;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        backdrop-filter: blur(4px);
+        z-index: 99;
+    }
+    .logomenumovil {
+        width: 35px;
+        height: 35px;
+    }
+    .logocompramovil {
+        width: 30px;
+        height: 30px;
+    }
+    /*Footer*/
+    #footer {
+        background-color: #e8e8e9;
+        padding-left: 18%;
+        padding-right: 18%;
+        padding-top: 2%;
+        font-size: 7pt;
+        color: #4f4f50;
+        bottom: 0px;
+    }
+    #footer p {
+        margin-top: 1.5%;
+    }
+    #footer hr {
+        border-color: #4f4f50;
+    }
+    #footer #enlaces {
+        color: #4f4f50;
+        display: flex;
+        justify-content: space-around;
+    }
+    #footer ul {
+        list-style: none;
+        margin-top: 10px;
+    }
+    .categoria {
+        color: #0d0d0e;
+        font-family: SFProText-Regular;
+    }
+    .enlacenormal a {
+        color: #4f4f50;
+    }
+    .categoria {
+        margin-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        ;
+    }
+    .enlacenormal {
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        ;
+    }
+}
+
+@media (min-width: 975px) {
+    .itemsmenu {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: SanfranciscoUltralight;
+        font-size: 10pt;
+    }
+    .logomenu {
+        width: 25px;
+        height: 25px;
+    }
+    .logomenumovil {
+        display: none;
+    }
+    .logocompramovil {
+        display: none;
+    }
+    /*Barra del menú*/
+    #menu {
+        background-color: #313132fa;
+        height: 45px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        backdrop-filter: blur(4px);
+        z-index: 99;
+    }
+    #menu a {
+        color: #e8e8e9;
+    }
+    /*Footer*/
+    #footer {
+        background-color: #e8e8e9;
+        padding-left: 18%;
+        padding-right: 18%;
+        padding-top: 2%;
+        font-size: 10pt;
+        color: #4f4f50;
+        bottom: 0px;
+    }
+    #footer p {
+        margin-top: 1.5%;
+    }
+    #footer hr {
+        border-color: #4f4f50;
+    }
+    #footer #enlaces {
+        color: #4f4f50;
+        display: flex;
+        justify-content: space-around;
+    }
+    #footer ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+    .categoria {
+        color: #0d0d0e;
+        font-family: SFProText-Regular;
+    }
+    .enlacenormal a {
+        color: #4f4f50;
+    }
+    .categoria {
+        margin-top: 30px;
+    }
+    .enlacenormal {
+        margin-top: 10px;
+    }
+}
+
+
+/*Dar tamaño a la imagen del menú*/
+
+.compra {
+    width: 25px;
+}
+
+
+/*Botón Negro evento*/
+
+#botonevento {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: SFProText-Regular;
+    font-size: 14pt;
+    background-color: #000000;
+    color: white;
+    border: 2px solid #fff;
+}
+
+#botonevento:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*Diseño de los botones de apple blancos*/
+
+#botonblanco {
+    padding: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 30px;
+    font-family: SFProText-Regular;
+    font-size: 14pt;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 5px;
+    margin-top: 20px;
+}
+
+#botonblanco:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#imagenes {
+    margin-bottom: 5%;
+}
+
+.imagenesredondas {
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 5%;
+}
+
+/*Cajas con imágenes */
+#cajaproducto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+}
+
+#cajaproducto h1 {
+    margin-top: 5%;
+    font-family: SFProText-Bold;
+}
+
+#cuerpo {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: blink
+}

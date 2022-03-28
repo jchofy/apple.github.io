@@ -1,0 +1,451 @@
+* {
+    padding: 0%;
+    margin: 0px;
+}
+
+#body {
+    overflow-x: hidden;
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SanfranciscoUltralight;
+    src: url("../fuentes/SFProDisplay-Ultralight.ttf") format("opentype");
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SFProText-Regular;
+    src: url("../fuentes/SFProText-Regular.ttf") format("opentype");
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SFProText-Semibold;
+    src: url("../fuentes/SFProText-Semibold.ttf") format("opentype");
+}
+
+
+/*Vamos a crear las fuentes a utilizar en el proyecto*/
+
+@font-face {
+    font-family: SFProText-Bold;
+    src: url("../fuentes/SFProDisplay-Bold.ttf") format("opentype");
+}
+
+
+/*Dar formato al logo del menú*/
+
+.logo {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: SanfranciscoUltralight;
+    font-size: 12pt;
+}
+
+@media (max-width: 975px) {
+    .itemsmenu {
+        display: none;
+    }
+    .logomenu {
+        width: 25px;
+        height: 25px;
+    }
+    /*Barra del menú*/
+    #menu {
+        background-color: #313132fa;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        backdrop-filter: blur(4px);
+        z-index: 99;
+    }
+    .logomenumovil {
+        width: 35px;
+        height: 35px;
+    }
+    .logocompramovil {
+        width: 30px;
+        height: 30px;
+    }
+    /*Banner Unicef*/
+    #bannerunicef {
+        padding-top: 60px;
+        background-color: #f5f5f7;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: SFProText-Regular;
+    }
+    #bannerunicef a {
+        color: #2466a4;
+        text-decoration: none;
+        font-size: 7pt;
+    }
+    /*Logo Unicef-banner unicef*/
+    .unicef {
+        width: 100px;
+        margin-right: 15px;
+    }
+    .imgseccion1 {
+        display: none;
+    }
+    #seccion3 {
+        margin-top: 50px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #seccion3 h1 {
+        font-size: 22pt;
+    }
+    #seccion3 img {
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    #seccion4 #c img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #seccion4 img {
+        margin-top: 20px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    #e .logoicard {
+        width: 40%;
+    }
+    #d .logoicard {
+        width: 40%;
+    }
+    .iphone_se_logo {
+        width: 40%;
+    }
+    .iphoneSE {
+        margin-top: 25px;
+        width: 700px;
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 975px) {
+    .itemsmenu {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: SanfranciscoUltralight;
+        font-size: 10pt;
+    }
+    .logomenu {
+        width: 25px;
+        height: 25px;
+    }
+    .logomenumovil {
+        display: none;
+    }
+    .logocompramovil {
+        display: none;
+    }
+    /*Barra del menú*/
+    #menu {
+        background-color: #313132fa;
+        height: 45px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        backdrop-filter: blur(4px);
+        z-index: 99;
+    }
+    #menu a {
+        color: #e8e8e9;
+    }
+    /*Banner Unicef*/
+    #bannerunicef {
+        padding-top: 60px;
+        background-color: #f5f5f7;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: SFProText-Regular;
+        z-index: 2;
+    }
+    #bannerunicef a {
+        color: #2466a4;
+        text-decoration: none;
+        font-size: 10pt;
+    }
+    /*Logo Unicef-banner unicef*/
+    .unicef {
+        width: 125px;
+        margin-right: 15px;
+    }
+    /*Barra del menú*/
+    .imgseccion1_movil {
+        display: none;
+    }
+    #seccion3 {
+        margin-top: 50px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #seccion4 img {
+        margin-top: 20px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    #e .logoicard {
+        width: 25%;
+    }
+    #d .logoicard {
+        width: 40%;
+    }
+    .iphone_se_logo {
+        width: 15%;
+    }
+    .iphoneSE {
+        width: 80%;
+    }
+}
+
+
+/*Dar tamaño a la imagen del menú*/
+
+.compra {
+    width: 25px;
+}
+
+
+/*Botón Negro evento*/
+
+#botonevento {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: SFProText-Regular;
+    font-size: 14pt;
+    background-color: #000000;
+    color: white;
+    border: 2px solid #fff;
+}
+
+#botonevento:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*Diseño de los botones de apple blancos*/
+
+#botonblanco {
+    padding: 10px;
+    border-radius: 30px;
+    font-family: SFProText-Regular;
+    font-size: 14pt;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 5px;
+    margin-top: 40px;
+}
+
+#botonblanco:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+
+/*Sección 1*/
+
+#seccion1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#seccion1 h1 {
+    font-size: 40pt;
+    font-family: SFProText-Bold;
+    color: #000
+}
+
+#seccion1 h3 {
+    font-size: 25pt;
+    font-family: SFProText-Regular;
+    margin-top: -10px;
+    color: #000;
+}
+
+#enlaceseccion1 a {
+    font-size: 15pt;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#seccion1 img {
+    margin-top: 50px;
+}
+
+.imgseccion1_movil {
+    width: 80%;
+}
+
+
+/*Sección 2*/
+
+#seccion2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: #000;
+}
+
+
+/*Sección 3*/
+
+#cuadradoseccion3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    margin-top: 40px;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.aipadair {
+    width: 50%;
+}
+
+
+/*Sección 4*/
+
+#seccion4 {
+    background-color: rgb(77, 51, 51);
+    z-index: -1;
+}
+
+#seccion4 #a,
+#b,
+#c,
+#d,
+#e {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#seccion4 h2 {
+    font-family: SFProText-SemiBold;
+    color: rgb(0, 0, 0);
+    font-size: 35pt;
+}
+
+#seccion4 #f {
+    font-family: SFProText-Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 50px;
+    background-image: url(../img/degradado.jpg);
+    height: 665px;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+#imagenair img {
+    max-width: 90%;
+}
+
+#f a {
+    font-family: SFProText-Regular;
+    color: #fff;
+}
+
+#e h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+#footer {
+    background-color: #e8e8e9;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 2%;
+    font-size: 10pt;
+    color: #4f4f50;
+    bottom: 0px;
+}
+
+#footer p {
+    margin-top: 1.5%;
+}
+
+#footer hr {
+    border-color: #4f4f50;
+}
+
+#footer #enlaces {
+    color: #4f4f50;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.categoria a {
+    color: #0d0d0e;
+    font-family: SFProText-Regular;
+}
+
+.enlacenormal a {
+    color: #4f4f50;
+}
+
+.categoria {
+    margin-top: 30px;
+}
+
+.enlacenormal {
+    margin-top: 10px;
+}
